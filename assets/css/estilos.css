@@ -1,0 +1,338 @@
+span.logo-brand{
+    color: #0099ff !important;
+    font-weight: 700;
+    font-size: medium;
+}
+.b-sombra{
+    background-color: #33ADFF;
+    color: #eee;
+}
+.text-shadow{
+    color: #ddd !important;
+}
+
+.b-dark{
+    background-color: #1b6781;
+    color: #eee;
+    padding-bottom: 2em !important;
+    margin-bottom: -5.5em;
+}
+
+.b-cuadro{
+    margin: 1em;
+    padding: 1em;
+    background-color:rgb(0,80,122);
+    opacity: 0.7;
+}
+.div-banner{
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+    line-height: 0.8 !important;
+    color: #fff;
+    
+}
+.rule{
+    border-bottom: 1px solid currentColor;
+}
+.font-italic{
+    font-style: italic !important;
+}
+.font-light{
+ font-weight: 400 !important;
+}
+.text-lg{
+    font-size: 1.5em !important;
+}
+.text-xlg{
+    font-size: 2em !important;
+}
+.text-sm{
+    font-size: 1em !important;
+}
+
+.text-vino{
+    color: #AE0544;
+}
+
+.title-partido{
+    font-size: 1.3em !important;
+    color: #60DDCB !important;
+    font-weight: 600 !important;
+    text-align: center !important;
+}
+.text-bold{
+    font-weight: 700 !important;
+}
+.text-devolucion{
+    color: #2691b5 !important;
+}
+.reformas h3{
+    font-size: 1.5em;
+    font-weight: 600;
+    padding-bottom: 1em;
+    text-transform: uppercase;
+}
+
+.reformas img{
+    height: 3em;
+    margin-bottom: 2em;
+}
+.d-separation{
+    padding-top: 3em;
+    padding-bottom: 2em;
+}
+.reformas p{
+    
+    text-align: center !important;
+    margin:  -1em 1em;
+    padding-bottom: 4em;
+}
+.d-form label, option{
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: smaller;
+}
+.btn-form{
+    padding-left: 1.8em !important;
+    padding-right: 1.8em !important;
+
+}
+
+.d-form{
+    padding-bottom: 0em;
+    padding-top: 0em;
+}
+.d-form p{
+    text-align: center;
+    font-weight: 400;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.comite h2{
+    font-size: 1.3em;
+    font-weight: 600;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    text-transform: uppercase;
+    line-height: 0.9em;
+}
+.comite h2 i{
+    font-size: 0.8em;
+    font-weight: 400;
+    text-transform: capitalize;
+
+}
+.comite p{
+    font-size: 0.8em;
+    font-weight: 400;
+    text-align: justify;
+    justify-content: center;
+    padding-bottom: 2em;
+}
+.montserrat{
+    font-family: 'Montserrat', sans-serif !important;
+}
+.text-medium{
+    font-size: small !important;
+}
+.contribucion{
+    color: #0099ff !important;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: small;
+
+}
+.div-head{
+    padding-bottom: 4em;
+}
+.text-major{
+    text-transform: uppercase !important;
+}
+
+.banner{
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.b-partido{
+    background-image: url(../img/partido.jpg);
+    background-size: cover;
+    background-position: center center;
+    
+}
+.b-info{
+    background-image: url(../img/fondo_info.png);
+    background-size: cover;
+    background-position: center center;
+    padding-top: 5em;
+    margin-top: -5em;
+    margin-bottom: 5em;
+    padding-bottom: 5em;
+}
+
+.b-lideres{
+    background-image: url(../img/fondo_lead.png);
+    background-size: cover;
+    background-position: center center;
+    padding-top: 5em;
+    margin-top: -5em;
+}
+
+.b-contact{
+    background-image: url(../img/fondo_contact.png);
+    background-size: cover;
+    background-position: center center;
+}
+.d-contact{
+    padding-top: 4em;
+    margin-top: 5em;
+}
+.info-contact{
+    padding-top: 2em;
+    padding-bottom: 4em;
+}
+.p-footer{
+    padding-top: 0.8em;
+    text-align: center;
+    margin-bottom: -4em;
+    font-weight: 400;
+    font-size: 0.8em;
+}
+
+
+/**********arrow animation*******/
+
+.load-more {
+	position: relative;
+	display: block;
+	cursor: pointer;
+  width: 40px; height: 40px;
+  top: 50%; left: 50%;
+  margin: -10px 0 0 -20px;
+}
+	.load-more:before,
+	.load-more:after {
+		position: absolute;
+		display: block;
+		content: '';
+		width: 20px; height: 20px;
+		left: 50%; top: 50%;
+		margin-top: -1px;
+		border-width: 2px;
+		border-style: solid;
+		border-color: transparent;
+		border-bottom-color: #fff;
+		border-right-color: #fff;
+		border-radius: 0 0 5px 0;
+
+		transform: translate(-50%, -50%) rotate(45deg);
+
+		transition: all .4s ease-in-out;
+	}
+	.load-more.active:before {
+		border-radius: 50%;
+		animation:
+			.8s rotate .4s linear forwards infinite;
+	}
+	.load-more.active:after {
+		width: 38px; height: 38px;
+		border-radius: 50%;
+		animation:
+			.8s rotate2 .4s linear forwards infinite;
+	}
+		@keyframes rotate {
+			to {
+				transform: translate(-50%, -50%) rotate(405deg);
+			}
+		}
+		@keyframes rotate2 {
+			to {
+				transform: translate(-50%, -50%) rotate(-315deg);
+			}
+		}
+	.load-more.disabled:before,
+	.load-more.disabled:after {
+    margin-top: 0;
+		transform: translate(-50%, -50%) rotate(135deg) rotateY(180deg);
+	}
+
+/************************************/
+
+
+.p-acme{
+    font-family: 'Acme', sans-serif !important;
+}
+
+.p-barlow{
+    font-family: 'Barlow Semi Condensed' !important;
+}
+
+.text-smooth{
+    color: #FF550D !important; 
+}
+
+.text-white{
+    color: #fff;
+}
+
+.text-yellow{
+    color: #FFCC0D;
+}
+.ruleh{
+    border-bottom: 2px solid currentColor;
+    padding-bottom: 0.3em;
+}
+
+@media (min-width: 40em) {
+    .div-heading {
+        font-size: 50px;
+        margin-bottom: 0.5em;
+    }
+}
+
+.marketing .col-lg-3 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.bi::before {
+    display: inline-block;
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path fill='none' stroke='%23333' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/></svg>");
+    background-repeat: no-repeat;
+    background-size: 1rem 1rem;
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+.loader {
+    position: fixed;
+    z-index: 999;
+    height: 100%;
+    width: 100%;
+    overflow: show;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 9999;
+    text-align: center;
+}
+.loader:before {
+    content: "";
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.modal-header {
+    background-color: #4899FF;
+    color: #fff;
+}
